@@ -37,3 +37,12 @@ En la frecuencia dominante se representa el componente de frecuencia que tiene m
 ![image](https://github.com/user-attachments/assets/dec69dba-09e1-40b0-a898-ff3af70e685b)
 
 La frecuencia media hace referencia al promedio de las frecuencias de cada ventana realizada, este valor es utilizado posteriormente para realizar la prueba de hipótesis y verificar que entre cada ventana existan cambios significativos para determinar que realmente se llegó a la fatiga.  
+
+La desviación estándar, nos ayuda a determinar que tan dispersos están los datos de la señal de la media de la misma, así sabemos que tan confiable es la toma de datos, y en este caso es de 0.68 aproximadamente. Lo cual no indica la confiabilidad de la señal, ya que es un valor reducido.
+
+Contando con estos valores, culminamos la práctica con un test de hipótesis, el cual es un procedimiento estadístico que se utiliza para evaluar afirmaciones o suposiciones sobre una población basándose en datos obtenidos de una muestra. Este proceso implica comparar dos hipótesis: la hipótesis nula (H0) y la hipótesis alternativa (H1). 
+La hipótesis nula(H0):Es la afirmación que se quiere probar y generalmente establece que no hay efecto o diferencia.
+Hipótesis Alternativa (H1): Es lo que se desea demostrar, afirmando que existe un efecto o una diferencia.
+Valor p: Es la probabilidad de obtener un resultado tan extremo como el observado, mide la evidencia en contra de la hipótesis nula. Un valor bajo, generalmente menor al nivel de significancia denotado en 0.05, indica que hay evidencia para rechazar la hipótesis nula. Y  un valor p alto sugiere que los resultados son consistentes con la hipótesis nula, lo que implica que no hay suficiente evidencia para rechazarla.
+El valor P calculado en el código de python de las ventanas dio como resultado: 0.99, superando el nivel de significancia, esto quiere decir que la hipótesis nula no se rechaza, en nuestro contexto, quiere decir que en las ventanas no hubo un cambio significativo en el valor de los promedios de las frecuencias, para determinar que el músculo llegó a fatiga.
+

@@ -35,4 +35,4 @@ En la frecuencia dominante se representa el componente de frecuencia que tiene m
 
 ![image](https://github.com/user-attachments/assets/dec69dba-09e1-40b0-a898-ff3af70e685b)
 
-La frecuencia media hace referencia al promedio de las frecuencias de cada ventana realizada, este valor es utilizado posteriormente para realizar la prueba de hipotesis y verificar que entre cada ventana existan cambios significativos para determinar que realmente se llego a la fatiga.  
+La frecuencia media hace referencia al promedio de las frecuencias de cada ventana realizada, este valor es utilizado posteriormente para realizar la prueba de hipótesis y verificar que entre cada ventana existan cambios significativos para determinar que realmente se llegó a la fatiga.  

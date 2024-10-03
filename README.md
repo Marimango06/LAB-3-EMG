@@ -47,4 +47,5 @@ El valor P calculado en el código de python de las ventanas dio como resultado:
 conclusiones
 
 Como conclusión se debe mencionar la importancia de la filtración por diferentes métodos en una señal bio medica, ya sea para la miografía u otras, ya que el entendimiento de esta se puede describir el estado de la persona a estudiar, además si se detallan los potenciales de acción con respecto al movimiento se puede cuantificar el estado del musculo.
+
 Por otro lado se tiene que mencionar que gracias a los filtros digitales se puede obtener una mayor precisión a la hora de eliminar componentes no deseados, ya que estos filtros se pueden generar por el orden necesario para la señal a filtrar, por otro lado también se debe mencionar el aventanamiento, el cual es fácil de aplicar para este tipo de señales, además de ser modificable para la adaptación de cada potencial y generar una ponderación con los datos no necesario, destacando la información mas relevante.

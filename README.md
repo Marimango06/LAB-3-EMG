@@ -21,7 +21,8 @@ Se implementó esta ventana debido a sus ventajas, entre ellas:
 Da menor importancia a los datos al principio y al final del segmento analizado, generando que la señal se enfoque en los potenciales de acción, también suaviza las discontinuidades en la señal, además es fácil de implementar y calcular, debido a que existen diferentes bibliotecas para la implementación, además de poderse modificar el tamaño a partir de la cantidad de ventanas necesarias, por otro lado separar componentes frecuenciales que tienen niveles significativamente diferentes a la señal. 
 Esta Ventana está definida matemáticamente mediante la siguiente fórmula:
 
-![image](https://github.com/user-attachments/assets/134ce261-077b-4bcd-acb4-5898e68ccd30)
+![image](https://github.com/user-attachments/assets/d99418c0-944a-447a-ba0a-c4ff3aeacca8)
+
 
 Según esto, la forma de la ventana utilizada es senoidal, en python se implementó, np.hanning, donde se define el tamaño de la ventana siendo de 50 puntos. Este valor es 50 veces la frecuencia de muestreo, permitiendo un buen análisis espectral al tener gran número de puntos tomados en cada contracción muscular. 
 A continuación se muestra la comparativa entre las gráficas de la señal filtrada con la señal aventanada. 

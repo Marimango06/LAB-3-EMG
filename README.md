@@ -18,9 +18,7 @@ Para el diseño de este filtro se tuvo en cuenta las frecuencias alta y baja. el
 
 Teniendo la señal filtrada se realiza un aventanamiento, el cual permite obtener un espectro más limpio y representativo de la señal, disminuyendo las discontinuidades en la señal.  Ayudando así al análisis de la misma, para ello se utilizó la ventana Hanning. 
 Se implementó esta ventana debido a sus ventajas, entre ellas:
-Da menor importancia a los datos al principio y al final del segmento analizado. Esto suaviza las discontinuidades en la señal.
-Es fácil de implementar y calcular.
-Separar componentes frecuenciales que tienen niveles significativamente diferentes a la señal. 
+Da menor importancia a los datos al principio y al final del segmento analizado, generando que la señal se enfoque en los potenciales de acción, también suaviza las discontinuidades en la señal, además es fácil de implementar y calcular, debido a que existen diferentes bibliotecas para la implementación, además de poderse modificar el tamaño a partir de la cantidad de ventanas necesarias, por otro lado separar componentes frecuenciales que tienen niveles significativamente diferentes a la señal. 
 Esta Ventana está definida matemáticamente mediante la siguiente fórmula:
 
 ![image](https://github.com/user-attachments/assets/134ce261-077b-4bcd-acb4-5898e68ccd30)
